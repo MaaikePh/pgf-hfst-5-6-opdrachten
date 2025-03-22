@@ -29,7 +29,13 @@ print('list na toevoeging 40 aan het einde van de lijst: ', getallen)  # Het res
 # Verwachte uitkomst: [2, 5, 6, 7, 11, 19, 22]
 # ==========================================
 
-
+getallen = [2, 4, 7, 11, 19]
+getallen.append(22)
+print(getallen)
+getallen.insert(2, 6)
+print(getallen)
+getallen[1] = 5
+print(getallen)
 
 # ==========================================
 # Opdracht 2:
